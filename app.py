@@ -124,7 +124,7 @@ with tab2:
                 messages=[{"role": "system", "content": "Sei un esperto di cucina."},
                           {"role": "user", "content": intro_prompt}],
                 temperature=0.7,
-                max_tokens=500
+                max_tokens=1500
             )
 
             response_prep = oai_client.chat.completions.create(
@@ -132,7 +132,7 @@ with tab2:
                 messages=[{"role": "system", "content": "Sei un esperto di cucina."},
                           {"role": "user", "content": preparation_prompt}],
                 temperature=0.7,
-                max_tokens=1000
+                max_tokens=2500
             )
 
             recipe_intro = response_intro.choices[0].message.content
