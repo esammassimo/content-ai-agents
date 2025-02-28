@@ -1,8 +1,6 @@
-# AI Content & Video Summarization Tool 🚀
+# AI Content Generator - Form Version 🚀
 
-Questa è un'app **Streamlit** che permette di:
-- 📄 **Generare contenuti da un file Excel** con OpenAI
-- 🎬 **Estrarre e riassumere la trascrizione di un video YouTube**
+Questa è un'app **Streamlit** che permette di **generare contenuti SEO-friendly** in base a un **form interattivo**, senza bisogno di file Excel.
 
 ---
 
@@ -11,46 +9,44 @@ Questa è un'app **Streamlit** che permette di:
 2. Le seguenti librerie Python devono essere installate:
    - streamlit
    - openai
-   - pandas
-   - youtube-transcript-api
    - python-docx
 
 Puoi installarle tutte con il comando:
-pip install -r requirements.txt
 
 ---
 
 ## 🚀 **Come avviare l'app**
 1. **Scarica il progetto** e posizionati nella cartella principale.
-2. **Avvia l'app con il comando:**
-3. **Apri il browser** e usa la sidebar per navigare tra:
-   - 📄 **Generazione Contenuti**
-   - 🎬 **Riassunto Video YouTube**
+2. **Esegui il comando per avviare Streamlit:**
+
+pip install -r requirements.txt
+
+---
+3. **Apri il browser** e compila il form con:
+   - Titolo del contenuto  
+   - SEO Title e Meta Description  
+   - Numero minimo di parole  
+   - Paragrafi con Titolo e Descrizione  
+   - **Tone of Voice** (Informale, Professionale, Formale)  
+
+4. **Clicca su "Generate Content" e scarica il file `.docx` generato!** 🎉  
 
 ---
 
 ## 🔑 **Configurazione della Chiave API di OpenAI**
 1. Vai su [OpenAI API](https://platform.openai.com/signup/) e crea un account.
 2. Ottieni la tua **API Key**.
-3. Inseriscila nel campo richiesto quando avvii l'app.
+3. Inseriscila nel campo richiesto nell'app.
 
 ---
 
-## 📥 **Caricamento e Generazione**
-### 📄 **Generazione Contenuti**
-1. Carica un file **Excel** contenente i dati dei contenuti.
-2. Clicca su **"Generate Content"**.
-3. Scarica il file ZIP con i documenti generati.
-
-### 🎬 **Riassunto Video YouTube**
-1. Inserisci il **link YouTube**.
-2. Seleziona la **lingua della trascrizione** (predefinita: "en").
-3. Imposta il numero minimo di parole nel riassunto.
-4. Clicca su **"Extract & Summarize"**.
-5. Scarica la trascrizione e il riassunto in **.txt** o **.docx**.
+## 📥 **Generazione del Contenuto**
+- **Compila il form** con i dettagli richiesti.
+- **OpenAI genererà ogni paragrafo rispettando il Tone of Voice scelto.**
+- **Scarica il file `.docx`** direttamente dal browser.
 
 ---
 
 ## ❓ **Domande e Supporto**
 Per problemi o richieste, apri un issue o contatta lo sviluppatore.  
-🚀 **Buon lavoro!** 😃
+🚀 **Buon lavoro con il tuo AI Content Generator!** 😃
