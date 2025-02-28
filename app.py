@@ -57,7 +57,7 @@ def generate_paragraph(title, description, min_words, tone_of_voice):
         messages=[{"role": "system", "content": "Sei un copywriter esperto in SEO."},
                   {"role": "user", "content": prompt}],
         temperature=0.7,
-        max_tokens=3000
+        max_tokens=4500
     )
 
     return response.choices[0].message.content
